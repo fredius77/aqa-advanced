@@ -17,21 +17,21 @@ async function fetchUser() {
 async function handleAll() {
     try {
         const [todo, user] = await Promise.all([fetchTodo(), fetchUser()]);
-        console.log("Результат Promise.all:");
-        console.log("Todo:", todo);
-        console.log("User:", user);
+        console.log('Результат Promise.all:');
+        console.log('Todo:', todo);
+        console.log('User:', user);
     } catch (error) {
-        console.error("Помилка при Promise.all:", error.message);
+        console.error('Помилка при Promise.all:', error.message);
     }
 }
 
 async function handleRace() {
     try {
         const result = await Promise.race([fetchTodo(), fetchUser()]);
-        console.log("Результат Promise.race:");
+        console.log('Результат Promise.race:');
         console.log(result);
     } catch (error) {
-        console.error("Помилка при Promise.race:", error.message);
+        console.error('Помилка при Promise.race:', error.message);
     }
 }
 

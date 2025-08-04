@@ -1,9 +1,7 @@
-// eslint.config.js
 import { defineConfig } from 'eslint/config'
 import js from '@eslint/js'
 import globals from 'globals'
 
-// Берём рекомендованные правила из @eslint/js
 const {
     configs: { recommended },
 } = js

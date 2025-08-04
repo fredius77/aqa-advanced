@@ -7,5 +7,5 @@ function isAdult(age) {
     }
 }
 
-console.log("Чи повнолітній (25):", isAdult(25)); 
-console.log("Чи повнолітній (15):", isAdult(15)); 
+console.log('Чи повнолітній (25):', isAdult(25)); 
+console.log('Чи повнолітній (15):', isAdult(15)); 
