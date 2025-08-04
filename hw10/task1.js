@@ -1,5 +1,5 @@
 import { Book } from './Book.js';
-import { EBook } from './Ebook.js';
+import {EBook } from './Ebook.js';
 
 const book1 = new Book("Майстер і Маргарита", "М. Булгаков", 1967);
 const book2 = new Book("Тіні забутих предків", "М. Коцюбинський", 1911);

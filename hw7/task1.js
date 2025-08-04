@@ -14,6 +14,5 @@ function handleNum(number, evenCallback, oddCallback) {
     }
 }
 
-// Приклад виклику
-handleNum(10, handleEven, handleOdd); // number is even
-handleNum(7, handleEven, handleOdd);  // number is odd
+handleNum(10, handleEven, handleOdd); 
+handleNum(7, handleEven, handleOdd);  
