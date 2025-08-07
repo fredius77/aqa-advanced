@@ -1,9 +1,9 @@
 function handleEven() {
-    console.log("number is even");
+    console.log('number is even');
 }
 
 function handleOdd() {
-    console.log("number is odd");
+    console.log('number is odd');
 }
 
 function handleNum(number, evenCallback, oddCallback) {
@@ -14,6 +14,5 @@ function handleNum(number, evenCallback, oddCallback) {
     }
 }
 
-// Приклад виклику
-handleNum(10, handleEven, handleOdd); // number is even
-handleNum(7, handleEven, handleOdd);  // number is odd
+handleNum(10, handleEven, handleOdd); 
+handleNum(7, handleEven, handleOdd);  

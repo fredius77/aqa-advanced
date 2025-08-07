@@ -1,13 +1,13 @@
 const car1 = {
-    brand: "Toyota",
-    model: "Corolla",
+    brand: 'Toyota',
+    model: 'Corolla',
     year: 2020
 };
 
 const car2 = {
-    brand: "Honda",
-    model: "Civic",
-    owner: "Олексій"
+    brand: 'Honda',
+    model: 'Civic',
+    owner: 'Олексій'
 };
 
 
@@ -16,4 +16,4 @@ const car3 = {
     ...car2
 };
 
-console.log("Об'єкт car3:", car3);
+console.log('Об\'єкт car3:', car3);
